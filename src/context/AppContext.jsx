@@ -6,15 +6,15 @@ const AppContext = createContext();
 export const AppProvider = ({ children }) => {
   const [user, setUser] = useState({
     name: 'William Garrett',
-    email: 'william.garrett@communityfirst.com',
+    email: 'unitedcommand574@gmail.com',
   });
   const [balance] = useState(980371.00); // updated
   const [showBalance, setShowBalance] = useState(true);
   const [transactions] = useState(TRANSACTIONS);
 
   const VALID_CREDENTIALS = {
-    username: 'william.garrett@communityfirst.com',
-    password: 'william2024',
+    username: 'unitedcommand574@gmail.com',
+    password: 'william2026',
   };
 
   const toggleBalance = () => setShowBalance(!showBalance);
