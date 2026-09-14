@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+body {
+  background: #f4f6fa;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+.bg-navy {
+  background: #0b1a33;
+}
+.text-navy {
+  color: #0b1a33;
+}
+.border-navy {
+  border-color: #0b1a33;
+}
+.card-shadow {
+  box-shadow: 0 8px 24px rgba(0,0,0,0.04), 0 2px 4px rgba(0,0,0,0.02);
+}
+.icon-btn {
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+.icon-btn:active {
+  transform: scale(0.92);
+}
+.bottom-nav {
+  backdrop-filter: blur(4px);
+  background: rgba(255,255,255,0.92);
+}
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
